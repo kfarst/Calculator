@@ -16,6 +16,7 @@
 		25A6728115CB7E10000A7ECD /* Reverse Polish Notation Calculator.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 25A6728015CB7E10000A7ECD /* Reverse Polish Notation Calculator.entitlements */; };
 		25A6728415CB7E10000A7ECD /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25A6728215CB7E10000A7ECD /* MainStoryboard.storyboard */; };
 		25A6728715CB7E10000A7ECD /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A6728615CB7E10000A7ECD /* CalculatorViewController.m */; };
+		25DC0CD515CD74E700DB6DFB /* CalculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DC0CD415CD74E700DB6DFB /* CalculatorBrain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +24,18 @@
 		25A6726E15CB7E10000A7ECD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		25A6727015CB7E10000A7ECD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		25A6727215CB7E10000A7ECD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		25A6727615CB7E10000A7ECD /* Reverse Polish Notation Calculator-Info.plist */ = {isa = PBXFileReference; path = "Reverse Polish Notation Calculator-Info.plist"; sourceTree = "<group>"; };
+		25A6727615CB7E10000A7ECD /* Reverse Polish Notation Calculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Reverse Polish Notation Calculator-Info.plist"; sourceTree = "<group>"; };
 		25A6727815CB7E10000A7ECD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		25A6727A15CB7E10000A7ECD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		25A6727C15CB7E10000A7ECD /* Reverse Polish Notation Calculator-Prefix.pch */ = {isa = PBXFileReference; path = "Reverse Polish Notation Calculator-Prefix.pch"; sourceTree = "<group>"; };
-		25A6727D15CB7E10000A7ECD /* CalculatorAppDelegate.h */ = {isa = PBXFileReference; path = CalculatorAppDelegate.h; sourceTree = "<group>"; };
+		25A6727C15CB7E10000A7ECD /* Reverse Polish Notation Calculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Reverse Polish Notation Calculator-Prefix.pch"; sourceTree = "<group>"; };
+		25A6727D15CB7E10000A7ECD /* CalculatorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorAppDelegate.h; sourceTree = "<group>"; };
 		25A6727E15CB7E10000A7ECD /* CalculatorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorAppDelegate.m; sourceTree = "<group>"; };
 		25A6728015CB7E10000A7ECD /* Reverse Polish Notation Calculator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Reverse Polish Notation Calculator.entitlements"; sourceTree = "<group>"; };
 		25A6728315CB7E10000A7ECD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		25A6728515CB7E10000A7ECD /* CalculatorViewController.h */ = {isa = PBXFileReference; path = CalculatorViewController.h; sourceTree = "<group>"; };
+		25A6728515CB7E10000A7ECD /* CalculatorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorViewController.h; sourceTree = "<group>"; };
 		25A6728615CB7E10000A7ECD /* CalculatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewController.m; sourceTree = "<group>"; };
+		25DC0CD315CD74E700DB6DFB /* CalculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorBrain.h; sourceTree = "<group>"; };
+		25DC0CD415CD74E700DB6DFB /* CalculatorBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorBrain.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,8 @@
 		25A6727415CB7E10000A7ECD /* Reverse Polish Notation Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				25DC0CD315CD74E700DB6DFB /* CalculatorBrain.h */,
+				25DC0CD415CD74E700DB6DFB /* CalculatorBrain.m */,
 				25A6727D15CB7E10000A7ECD /* CalculatorAppDelegate.h */,
 				25A6727E15CB7E10000A7ECD /* CalculatorAppDelegate.m */,
 				25A6728215CB7E10000A7ECD /* MainStoryboard.storyboard */,
@@ -169,6 +174,7 @@
 				25A6727B15CB7E10000A7ECD /* main.m in Sources */,
 				25A6727F15CB7E10000A7ECD /* CalculatorAppDelegate.m in Sources */,
 				25A6728715CB7E10000A7ECD /* CalculatorViewController.m in Sources */,
+				25DC0CD515CD74E700DB6DFB /* CalculatorBrain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +290,7 @@
 				25A6728C15CB7E10000A7ECD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
